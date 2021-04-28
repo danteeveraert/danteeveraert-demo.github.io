@@ -1,0 +1,159 @@
+#background-image {
+    position: relative;
+    clip-path: inset(0px 0px 60px 0px);
+    bottom: 30px;
+    width: 246px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+#profile-image {
+    position: absolute;
+    top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-pp-image {
+    position: relative;
+    top: 3px;
+    width: 69px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#white-circle {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: white;
+    z-index: 1;
+}
+
+#profile-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    bottom: 60px;
+}
+
+#main-profile-name {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#main-profile-bio {
+    position: relative;
+    bottom: 15px;
+    font-family: "Helvetica Neue";
+    color: #A4A1A1;
+    font-size: 11px;
+}
+
+#greybar-1  {
+    position: relative;
+    bottom: 70px;
+    background: #C4C4C4;
+    height: 1px;
+    width: 246px;
+    margin: 0;
+    padding: 0;
+}
+
+#roles-box {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+#roles-right {
+    text-align: end;
+}
+
+#roles-right p {
+    font-family: "Helvetica Neue";
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 7.5%;
+}
+
+#roles-left p {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 11px;
+    color: #A4A1A1;
+    margin-top: 0;
+    margin-bottom: 15%;
+}
+
+#greybar-two {
+    position: relative;
+    bottom: 55px;
+    background: #C4C4C4;
+    size: 1px;
+    width: 246px;
+    margin: 0;
+    padding: 0;
+}
+
+#stats-box {
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 85%;
+}
+
+#stats-title {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 11px;
+    color: #A4A1A1;
+    margin-bottom: 12px;
+}
+
+.stats-word {
+    font-family: "Helvetica Neue";
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.amount {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 11px;
+    color: #0961C9;
+}
+
+.amount:hover, #amount-cred:hover {
+    cursor: pointer;
+}
+
+#stats-right {
+    text-align: end;
+}
+
+#cred {
+    position: relative;
+    bottom: 40px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#amount-cred {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 16px;
+    color: #0961C9;
+}
+
+

@@ -1,0 +1,330 @@
+#main-spacer {
+    width: 0px;
+    height: 100%;
+}
+
+#post-and-answer {
+    position: relative;
+    right: 49px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-post, #answer {
+    height: 410px;
+    width: 800px;
+    background: white;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#answer {
+    height: 370px;
+}
+
+#answer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    background: white;
+    border-radius: 13px;
+}
+
+#answer-post-bar {
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 40px;
+    border-color: #C4C4C4;
+    text-indent: 15px;
+}
+
+#answer-box-wrapper {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#answer-box input:focus {
+    border-radius: 40px;
+    outline: none;
+}
+
+#answer-post-bar::placeholder {
+    position: relative;
+    font-family: "Nunito";
+    color: #797878;
+    font-size: 13px;
+}
+
+
+#answer-box img {
+    position: relative;
+    width: 41px;
+    border-radius: 50%;
+    right: 10px;
+}
+
+#answer-box-wrapper label {
+    width: 100%;
+}
+
+.top-post-div-answer, #top-post-div-answer-act {
+    position: relative;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    width: 93%;
+}
+
+#post-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#top-wrapper, #top-wrapper-answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+#comments, #comments-answer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#post-actions-wrapper, #post-actions-wrapper-answer {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11%;
+}
+
+#post-bar-bottom, #post-bar-bottom-answer {
+    position: relative;
+    top: 6px;
+}
+
+.post-actions {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+}
+
+#spacer-post, #spacer-post-answer {
+    width: 10%;
+}
+
+#actions-wrapper, #actions-wrapper-answer {
+    display: flex;
+    width: 100%;
+}
+
+#actions-wrapper:hover, #actions-wrapper-answer:hover {
+    cursor: auto;
+}
+
+#actions-wrapper div:hover, #actions-wrapper-answer div:hover {
+    cursor: auto;
+}
+
+#actions-wrapper span:hover, #actions-wrapper-answer span:hover {
+    cursor: pointer;
+}
+
+#views:hover {
+    cursor: auto;
+}
+
+.like-wrapper:hover {
+    cursor: pointer;
+}
+
+#like-wrapper1:hover, #like-wrapper2:hover {
+    cursor: pointer;
+}
+
+#views {
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-family: Nunito;
+    color: #A4A1A1;
+    font-weight: normal;
+}
+
+#comment1 {
+    position: relative;
+    left: 57px;
+    display: flex;
+    align-items: center;
+    /*width: 80%;*/
+}
+
+#comment1 img {
+    position: relative;
+    bottom: 11px;
+    border-radius: 50%;
+    width: 41px;
+}
+
+#comment-rectangle {
+    width: 70%;
+    background: #E5E4E4;
+    border-radius: 10px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#comment-actions {
+    position: relative;
+    left: 10px;
+    font-family: Nunito;
+    color: #797878;
+    font-size: 13px;
+}
+
+#comment-wrapper {
+    width: 100%;
+}
+
+#comment-space {
+    width: 10px;
+}
+
+.comment-name {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.comment-name h1, .comment-name p {
+    font-family: "Helvetica Neue";
+    font-size: 10px;
+    font-weight: 600;
+    color: #797878;
+    margin: 0;
+}
+
+.comment-name h1 {
+    font-size: 12px;
+    color: black;
+}
+
+#comment-rectangle-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+#comment {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#comment-spacer {
+    width: 20px;
+}
+
+#comment-actions-spacer {
+    height: 5px;
+}
+
+#add-comment, #add-comment-answer {
+    position: relative;
+    left: 77px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#add-comment label, #add-comment-answer label {
+    width: 100%;
+}
+
+#add-comment input:focus, #add-comment-answer input:focus {
+    border-radius: 20px;
+    outline: none;
+}
+
+#add-comment-bar::placeholder, #add-comment-bar-answer::placeholder {
+    position: relative;
+    font-family: "Nunito";
+    color: #A4A1A1;
+    font-size: 10px;
+}
+
+#add-comment img, #add-comment-answer img {
+    position: relative;
+    width: 21px;
+    border-radius: 50%;
+    /*right: 10px;*/
+}
+
+#add-comment-bar, #add-comment-bar-answer {
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 21px;
+    border-color: #C4C4C4;
+    text-indent: 15px;
+}
+
+#add-comment-spacer, #add-comment-spacer-answer {
+    width:10px;
+}
+
+#second-br, #second-br-answer {
+    display: block;
+    height:10px;
+}
+
+#add-comment-space {
+    height: 10px;
+}
+
+#answer-title {
+    font-size: 25px;
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+.answer-spacer {
+    height: 20px;
+}
+
+#like1-span:hover, #reply1-span:hover {
+    cursor: pointer;
+}
+
+.liked {
+    color: #0961C9;
+    font-weight: bolder;
+}
+

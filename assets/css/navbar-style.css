@@ -1,0 +1,127 @@
+#navbar {
+    overflow-y: hidden;
+    overflow-x: auto;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    height: 70px;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+#navbar a, #navbar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-qa-text {
+    font-family: "Nunito";
+    font-size: 30px;
+}
+
+#navbar-logo {
+    position: relative;
+    left: 2%;
+    font-family: Spartan;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+#search-bar::placeholder {
+    position: relative;
+    font-family: "Nunito";
+    font-weight: lighter;
+    color: #C4C4C4;
+    font-size: 18px;
+}
+
+#search-bar {
+    position: relative;
+    left: -7px;
+    height: 30px;
+    width: 170%;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid;
+    color: dimgrey;
+    text-indent: 42px;
+    font-size: 18px;
+    font-family: "Nunito";
+}
+
+#search-icon {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 20px;
+    z-index: 3;
+}
+
+#navbar label {
+    position: relative;
+    right: 160px;
+}
+
+#navbar-divider {
+    color: #C4C4C4;
+    font-size: 50px;
+    font-family: "Nunito";
+    font-weight: lighter;
+}
+
+#navbar-qa-bar {
+    position: relative;
+    background: black;
+    height: 4px;
+    width: 130%;
+    bottom: 18px
+}
+
+#navbar-qa-bar2 {
+    position: relative;
+    background: black;
+    right: 170%;
+    height: 4px;
+    width: 130%;
+    bottom: 18px
+}
+
+#navbar-qa-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-selections {
+    position: relative;
+    left: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+#navbar-settings {
+    position: relative;
+    left: 70px;
+}
+
+@media screen and (max-width: 1306px) {
+  #navbar-logo {
+      transform: translateX(-70px);
+      transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  #navbar label {
+      display: none;
+  }
+}
+

@@ -1,0 +1,346 @@
+main {
+    position: relative;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+body {
+    background: #E5E4E4;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1148px;
+}
+
+#overbox {
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1148px;
+}
+
+
+#left-sidebar, #right-sidebar, #center {
+    display: flex;
+    flex-direction: column;
+}
+
+.post, #create-post, #profile, #shortcuts, #activity, #news {
+    background: white;
+}
+
+#left-sidebar, #right-sidebar, #center {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 246px;
+    height: 370px;
+    border-radius: 13px;
+}
+
+#shortcuts {
+    position: relative;
+    top: 25px;
+    width: 246px;
+    height: 350px;
+    border-radius: 13px;
+}
+
+#activity {
+    width: 246px;
+    height: 280px;
+    border-radius: 13px;
+}
+
+#news {
+    position: relative;
+    top: 25px;
+    width: 246px;
+    height: 235px;
+    border-radius: 13px;
+}
+
+#create-post {
+    width: 550px;
+    height: 110px;
+    border-radius: 13px;
+}
+
+#ordering {
+    width: 550px;
+    height: 80px;
+    border-radius: 13px;
+    background: #E5E4E4;
+}
+
+.spacer {
+    height: 25px;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*justify-content: space-between;*/
+}
+
+.post {
+    width: 550px;
+    height: 200px;
+    background: white;
+    border-radius: 13px;
+}
+
+#shortcuts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shortcuts-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+#shortcuts-wrapper p, h1 {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+#shortcuts-wrapper p {
+    margin-bottom: 0;
+}
+
+#shortcuts-wrapper h1 {
+    margin-bottom: 13px;
+}
+
+#shortcuts-wrapper p:hover {
+    cursor: pointer;
+}
+
+.hashtag, #see-all1 {
+    color: #797878;
+}
+
+.group, #see-all2 {
+    color: #0961C9;
+}
+
+#hashtags {
+    position: relative;
+    top:3%;
+}
+
+#groups {
+    position: relative;
+    top: 7%;
+}
+
+#create-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#write-post {
+    position: relative;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#post-type {
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+#write-post img {
+    position: relative;
+    width: 41px;
+    border-radius: 50%;
+    right: 10px;
+}
+
+#write-post label {
+    width: 100%;
+}
+
+#create-post-bar {
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 40px;
+    border-color: #C4C4C4;
+    text-indent: 15px;
+}
+
+#create-post-bar::placeholder {
+    position: relative;
+    font-family: "Nunito";
+    color: #797878;
+    font-size: 13px;
+}
+
+#write-post input:focus {
+    border-radius: 40px;
+    outline: none;
+}
+
+#post-type p, #post-type span {
+    display: flex;
+    align-items: center;
+    font-family: "Nunito";
+    font-size: 18px;
+}
+
+#post-type b {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 14px;
+    color: #A4A1A1;
+}
+
+#post-type p:hover, #post-type span:hover {
+    cursor: pointer;
+}
+
+#activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;*/
+}
+
+#activity-wrapper, #news-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 90%;
+    height: 98%;
+}
+
+#activity-wrapper h1, #news-wrapper h1 {
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+
+#news-wrapper h1 {
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+.time {
+    font-size: 9px;
+}
+
+#activity-wrapper p {
+    font-family: "Nunito";
+    font-size: 12px;
+    color: #797878;
+    margin: 0;
+}
+
+#news-wrapper ul {
+    font-family: "Nunito";
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding-inline-start: 30px;
+}
+
+#news-wrapper li {
+    margin: 9px;
+}
+
+#news-wrapper li:hover {
+    cursor: pointer;
+}
+
+#activity-wrapper strong {
+    color: black;
+}
+
+#activity-wrapper strong:hover {
+    cursor: pointer;
+}
+
+.time {
+    font-family: "Nunito";
+    font-size: 9px;
+    margin: 0;
+    color: #A4A1A1;
+}
+
+.spec-activity {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 7px;
+}
+
+#activity-see-all {
+    position: relative;
+    font-weight: bold;
+    left: 5px;
+    top: 5px;
+}
+
+#activity-see-all:hover {
+    cursor: pointer;
+}
+
+#bottom-space {
+    height:200px;
+}
+#oops-text {
+    position: relative;
+    top: 200px;
+    font-family: Nunito;
+    font-size: 20px;
+    color: #797878;
+}
+
+#oops-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+}

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inside</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar-style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index-style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/profile-style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/post-style.css">
+    <script src="assets/scripts/main_actions.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav id="navbar">
+            <a id="navbar-logo" href="index.html"><p>inside</p></a>
+            <label>
+                <img id="search-icon" src="assets/img/search%20icon.webp" alt="">
+                <input id="search-bar" type="text" placeholder="Search">
+            </label>
+            <div id="main-selections">
+                <a id="navbar-social" href="oops.html"><img src="assets/img/social.png" alt=""> </a>
+                <p id="navbar-divider">|</p>
+                <div id="navbar-qa-box">
+                    <a id="navbar-qa" href="index.html"><p id="navbar-qa-text">Q&A</p></a>
+                    <div id="navbar-qa-bar"></div>
+                </div>
+            </div>
+            <a id="navbar-settings" href="oops.html"><img src="assets/img/settings.png" alt=""> </a>
+        </nav>
+        <main>
+            <div id="overbox">
+                <div id="left-sidebar">
+                    <div id="profile">
+                        <img id="background-image" src="assets/img/background.jpeg" alt="">
+                        <div id="profile-image">
+                            <img id="main-pp-image" src="assets/img/main_pp.jpeg" alt="">
+                            <div id="white-circle"></div>
+                        </div>
+                        <div id="profile-text">
+                            <p id="main-profile-name">Dante Everaert</p>
+                            <p id="main-profile-bio">I like dogs and coding</p>
+                        </div>
+                        <hr id="greybar-1">
+                        <div id="roles-box">
+                            <div id="roles-left">
+                                <p>Role</p>
+                                <p>Org</p>
+                                <p>Location</p>
+                            </div>
+                            <div id="roles-right">
+                                <p>Software Engineer L4</p>
+                                <p>Search Science & AI</p>
+                                <p>Palo Alto, CA</p>
+                            </div>
+                        </div>
+                        <hr id="greybar-two">
+                        <div id="stats-box">
+                            <div id="stats-left">
+                                <div id="stats-title">Stats</div>
+                                <div class="stats-word">Questions: <b class="amount">4</b></div>
+                                <span class="stats-word">Posts: <b class="amount">5</b></span>
+                            </div>
+                            <div id="stats-right">
+                                <div class="stats-word">Answers: <b class="amount">8</b></div>
+                                <span class="stats-word">Groups: <b class="amount">3</b></span>
+                            </div>
+                        </div>
+                        <a id="cred">Cred: <b id="amount-cred">74</b></a>
+                    </div>
+                    <div id="shortcuts">
+                        <div id="shortcuts-wrapper">
+                            <div id="hashtags">
+                                <h1>Followed Hashtags</h1>
+                                <p class="hashtag"># AWS</p>
+                                <p class="hashtag"># Software Development</p>
+                                <p class="hashtag"># AI/ML</p>
+                                <p class="hashtag"># Java</p>
+                                <p id="see-all1">+ See All</p>
+                            </div>
+                            <div id="groups">
+                                <h1>Groups</h1>
+                                <p class="group">General Announcements</p>
+                                <p class="group">Mathematics @ Company</p>
+                                <p class="group">Artificial Intelligence</p>
+                                <p class="group">Soccer Fans</p>
+                                <p id="see-all2">+ See All</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="center">
+                    <div id="create-post">
+                        <div id="write-post">
+                            <img src="assets/img/main_pp.jpeg" alt="">
+                            <label>
+                                <input id="create-post-bar" type="text" placeholder="Ask a Question or Start a Post">
+                            </label>
+                        </div>
+                        <div id="post-type">
+                            <p>Q&A<b>&nbsp Question</b></p>
+                            <span><img src="assets/img/image_upload.png" alt=""><b>&nbspImage</b></span>
+                            <span><img src="assets/img/event.png" alt=""><b>&nbspEvent</b></span>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div id="posts">
+                        <div id="post1" class="post">
+                            <div class="post-wrapper">
+                                <div class="top-post-div" id="top-post1-div">
+                                    <img src="assets/img/pp1.png" alt="">
+                                    <div class="top-post-spacing1"></div>
+                                    <div class="top-post-text">
+                                        <h1>James Chu</h1>
+                                        <p>Cred: 3</p>
+                                        <p>3h</p>
+                                    </div>
+                                    <div class="top-post-spacing2"></div>
+                                    <div class="question-wrapper"><div class="question">How do I make a loading icon in CSS?</div></div>
+                                </div>
+                                <div class="preview-text">
+                                    <p class="preview-text-text"><abbr id="pt1">I am trying to update the loading icon for our chat service in the repo
+                                    FrontendChat1, file chat_load.html, but I can’t get my animations &nbsp</abbr>
+                                        <span class="see-more" id="see-more1">...see more</span>
+                                    <br><span class="tags"><span># CSS</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># HTML</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># Frontend</span></span></p>
+                                </div>
+                                <hr class="post-bar">
+                                <div class="post-actions">
+                                    <div class="like-wrapper" id="like-wrapper1">
+                                        <span>Like</span><div class="like-back"><b class="likes" id="likes1">41</b></div>
+                                    </div>
+                                    <div class="answer-wrapper">
+                                        <span>Answer</span><div class="answer-back"><b class="answers" id="answer1">0</b></div>
+                                    </div>
+                                    <span>Comment &nbsp 1</span>
+                                    <span>Share &nbsp 0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer"></div>
+                        <div id="post2" class="post">
+                            <div class="post-wrapper">
+                                <div class="top-post-div" id="top-post2-div">
+                                    <img src="assets/img/pp2.png" alt="">
+                                    <div class="top-post-spacing1"></div>
+                                    <div class="top-post-text">
+                                        <h1>Alice Watson</h1>
+                                        <p>Cred: 31</p>
+                                        <p>3h</p>
+                                    </div>
+                                    <div class="top-post-spacing2"></div>
+                                    <div class="question-wrapper"><div class="question">How do I add JavaScript to HTML?</div></div>
+                                </div>
+                                <div class="preview-text">
+                                    <p class="preview-text-text"><abbr id="pt2">Hello all, I am new to frontend development and need to add a javascript
+                                        file to my html doc to do some cool animations :) I tried linking it like &nbsp</abbr>
+                                        <span class="see-more" id="see-more2">...see more</span>
+                                    <br><span class="tags"><span># Javascript</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># HTML</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># Frontend</span></span></p>
+                                </div>
+                                <hr class="post-bar">
+                                <div class="post-actions">
+                                    <div class="like-wrapper" id="like-wrapper2">
+                                        <span>Like</span><div class="like-back"><b class="likes" id="likes2">14</b></div>
+                                    </div>
+                                    <div class="answer-wrapper">
+                                        <span>Answer</span><div class="answer-back"><b class="answers" id="answer2">1</b></div>
+                                    </div>
+                                    <span>Comment &nbsp 1</span>
+                                    <span>Share &nbsp 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer"></div>
+                        <div id="post3" class="post">
+                            <div class="post-wrapper">
+                                <div class="top-post-div" id="top-post3-div">
+                                    <img src="assets/img/pp3.jpeg" alt="">
+                                    <div class="top-post-spacing1"></div>
+                                    <div class="top-post-text">
+                                        <h1>John Terry</h1>
+                                        <p>Cred: 153</p>
+                                        <p>4h</p>
+                                    </div>
+                                    <div class="top-post-spacing2"></div>
+                                    <div class="question-wrapper"><div class="question">Pros and Cons of different frontend frameworks?</div></div>
+                                </div>
+                                <div class="preview-text">
+                                    <p class="preview-text-text"><abbr id="pt3">I wanted to get people’s opinion on this: my team is creating a new webpage
+                                        from scratch, and I was wondering what people’s thoughts are on&nbsp</abbr>
+                                        <span class="see-more" id="see-more3">...see more</span>
+                                    <br><span class="tags"><span># Javascript</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># React</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># Angular</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># Frontend</span></span></p>
+                                </div>
+                                <hr class="post-bar">
+                                <div class="post-actions">
+                                    <div class="like-wrapper" id="like-wrapper3">
+                                        <span>Like</span><div class="like-back"><b class="likes" id="likes3">53</b></div>
+                                    </div>
+                                    <div class="answer-wrapper">
+                                        <span>Answer</span><div class="answer-back"><b class="answers" id="answer3">7</b></div>
+                                    </div>
+                                    <span>Comment &nbsp5</span>
+                                    <span>Share &nbsp8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer"></div>
+                        <div id="post4" class="post">
+                            <div class="post-wrapper">
+                                <div class="top-post-div" id="top-post4-div">
+                                    <img src="assets/img/pp4.jpeg" alt="">
+                                    <div class="top-post-spacing1"></div>
+                                    <div class="top-post-text">
+                                        <h1>Alex Jackson</h1>
+                                        <p>Cred: 41</p>
+                                        <p>5h</p>
+                                    </div>
+                                    <div class="top-post-spacing2"></div>
+                                    <div class="question-wrapper"><div class="question">How do I make a rectangle in CSS?</div></div>
+                                </div>
+                                <div class="preview-text">
+                                    <p class="preview-text-text"><abbr id="pt4">I am trying to make a rectangle in CSS by creating a div and filling
+                                        the background with a color, but it doesn't appear on my webpage ev&nbsp</abbr>
+                                        <span class="see-more" id="see-more4">...see more</span>
+                                    <br><span class="tags"><span># CSS</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># HTML</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                            <span># Frontend</span></span></p>
+                                </div>
+                                <hr class="post-bar">
+                                <div class="post-actions">
+                                    <div class="like-wrapper" id="like-wrapper4">
+                                        <span>Like</span><div class="like-back"><b class="likes" id="likes4">10</b></div>
+                                    </div>
+                                    <div class="answer-wrapper">
+                                        <span>Answer</span><div class="answer-back"><b class="answers" id="answer4">1</b></div>
+                                    </div>
+                                    <span>Comment &nbsp 0</span>
+                                    <span>Share &nbsp 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-sidebar">
+                    <div id="activity">
+                        <div id="activity-wrapper">
+                            <h1>Activity</h1>
+                            <div class="spec-activity" id="activity1">
+                                <p class="activity-name"><strong>Your Question:</strong> How do I instantiate an...
+                                    <strong>has been answered </strong></p>
+                                <div class="time">10min ago</div>
+                            </div>
+                            <div class="spec-activity" id="activity2">
+                                <p class="activity-name"><strong>Jason Diaz</strong> liked your
+                                    <strong>post </strong></p>
+                                <div class="time">1h ago</div>
+                            </div>
+                            <div class="spec-activity" id="activity3">
+                                <p class="activity-name">You've reached <strong>70 Cred!</strong> Way to go!</p>
+                                <div class="time">1d ago</div>
+                            </div>
+                            <div class="spec-activity" id="activity4">
+                                <p class="activity-name">There are <strong>2</strong> new posts in your group
+                                    <strong>Soccer Fans </strong></p>
+                                <div class="time">1d ago</div>
+                            </div>
+                            <p id="activity-see-all">+ See All</p>
+                        </div>
+                    </div>
+                    <div id="news">
+                        <div id="news-wrapper">
+                            <h1>Company News</h1>
+                            <ul>
+                                <li>Our newest office in Seattle has opened
+                                for employees</li>
+                                <li>Coming Back to the Office: Guidelines</li>
+                                <li>Work from Home Tips and Tricks</li>
+                                <li>Health Insurance Plan Update</li>
+                                <li>Blog from the CEO: Racism and our role</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-space"></div>
+        </main>
+    </div>
+
+</body>
+</html>
