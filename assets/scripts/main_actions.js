@@ -1,6 +1,6 @@
 window.onload = function () {
     function gotooops() {
-        window.location.href = "oops.html"
+        window.location.href = "oops.html";
     }
 
     document.getElementById("activity-see-all").onclick = gotooops;
@@ -30,6 +30,11 @@ window.onload = function () {
         elem.childNodes.forEach(function (el) { if(el.tagName === "STRONG") {el.onclick = gotooops}});
     })
 
+    function gotopost() {
+        window.location.href = "post.html";
+    }
+    document.querySelectorAll(".question-wrapper").forEach( function (elem) {elem.onclick=gotopost;})
+    document.querySelectorAll(".answer-wrapper").forEach( function (elem) {elem.onclick=gotopost;})
 
     likes = [41, 14, 53, 10];
     has_liked = [0, 0, 0, 0];
